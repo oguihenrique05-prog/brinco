@@ -597,9 +597,64 @@
            </div>
        </div>
 
-       <!-- OFERTA FINAL -->
+       <!-- OFERTA FINAL E MATEMÁTICA DO LUCRO -->
        <div id="checkoutSection" class="w-full flex flex-col px-5 pt-10 pb-12 fade-up border-t border-gray-200 bg-white">
            
+           <h2 class="text-[2.2rem] font-black leading-tight text-gray-900 mb-6 text-center italic">A <span class="text-brand">Matemática</span> do Lucro</h2>
+           
+           <!-- BLOCO VISUAL DE TANGIBILIZAÇÃO DO LUCRO (ANTES E DEPOIS) -->
+           <div class="w-full bg-white rounded-2xl p-4 border border-gray-100 shadow-lg mb-6 relative overflow-hidden">
+               <div class="absolute top-0 left-0 w-full bg-gray-900 text-white text-[10px] font-black text-center py-1 uppercase tracking-widest">
+                   A Prova Real da Margem
+               </div>
+               
+               <div class="flex items-center justify-between mt-6 gap-2">
+                   <!-- Lado Esquerdo: O Custo -->
+                   <div class="flex flex-col items-center w-[45%]">
+                       <img src="custo-massa.webp" alt="Pacote de Massa" class="w-full aspect-square object-cover rounded-xl border border-gray-200 shadow-sm mb-2 transform hover:scale-105 transition-transform">
+                       <p class="text-[10px] text-gray-500 font-bold uppercase text-center leading-tight">1 Pacote de Massa</p>
+                       <p class="text-[15px] font-black text-red-500">Custo: R$ 17,99</p>
+                   </div>
+                   
+                   <!-- Seta central -->
+                   <div class="flex flex-col items-center justify-center shrink-0">
+                       <div class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center mb-1">
+                           <span class="text-lg text-green-600 font-black animate-pulse">➔</span>
+                       </div>
+                       <span class="text-[9px] font-bold text-gray-400 uppercase leading-none text-center">Transforma<br>em</span>
+                   </div>
+                   
+                   <!-- Lado Direito: A Produção/Lucro -->
+                   <div class="flex flex-col items-center w-[45%]">
+                       <img src="producao-pronta.webp" alt="Brincos Prontos" class="w-full aspect-square object-cover rounded-xl border border-green-200 shadow-sm mb-2 transform hover:scale-105 transition-transform">
+                       <p class="text-[10px] text-gray-500 font-bold uppercase text-center leading-tight">Rende 40 Pares</p>
+                       <p class="text-[15px] font-black text-green-600">Vende: R$ 1.596,00</p>
+                   </div>
+               </div>
+           </div>
+
+           <p class="text-[14px] font-medium mb-6 leading-relaxed text-gray-700 text-center px-1">
+               É exatamente por isso que o seu custo por par cai para apenas <strong class="text-brand font-black">centavos</strong>. Usando os nossos gabaritos para não ter desperdício, o lucro é esmagador:
+           </p>
+
+           <!-- Calculadora Visual -->
+           <div class="w-full bg-white rounded-2xl p-5 border border-gray-200 mb-8 shadow-md relative">
+               <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-green-500 text-white font-black px-4 py-1 rounded-full text-[10px] uppercase tracking-widest shadow-sm">LUCRO EXTREMO</div>
+               
+               <div class="flex justify-between items-center border-b border-gray-100 pb-3 mb-3 mt-2">
+                   <span class="text-gray-600 font-medium text-[13px]">Custo Médio (Massa + Ferragem):</span>
+                   <span class="font-bold text-gray-900 text-[14px]">R$ 0,50</span>
+               </div>
+               <div class="flex justify-between items-center border-b border-gray-100 pb-3 mb-3">
+                   <span class="text-gray-600 font-medium text-[13px]">Preço de Venda Médio:</span>
+                   <span class="font-bold text-gray-900 text-[14px]">R$ 39,90</span>
+               </div>
+               <div class="flex justify-between items-center pt-2">
+                   <span class="font-black text-gray-900 text-[16px] uppercase italic">Lucro Limpo:</span>
+                   <span class="font-black text-brand text-[20px]">R$ 39,40 <span class="text-[10px] text-gray-400 italic lowercase">/par</span></span>
+               </div>
+           </div>
+
            <p class="text-brand text-[11px] font-black uppercase tracking-widest mb-2 text-center mt-4">ESCOLHA SEU PLANO E COMECE AGORA</p>
 
            <!-- PLANO VIP (R$ 37,00) -->
