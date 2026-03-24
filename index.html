@@ -355,8 +355,8 @@
            </button>
 
            <div class="relative w-full flex justify-center items-center mb-4">
-               <!-- INSTRUÇÃO: Substitua 'head1.webp' por uma foto sua segurando um brinco lindo, ou um arranjo chique na mesa -->
-               <img src="head1.webp" fetchpriority="high" decoding="async" alt="Brincos de Cerâmica Fria" class="w-full h-auto rounded-xl shadow-lg border border-gray-100">
+               <!-- Adicionado o fallback de erro de carregamento (onerror) -->
+               <img src="head1.webp" onerror="this.onerror=null;this.src='https://placehold.co/800x600/be123c/white?text=Erro:+head1.webp+não+encontrado!'" fetchpriority="high" decoding="async" alt="Brincos de Cerâmica Fria" class="w-full h-auto">
            </div>
        </div>
 
