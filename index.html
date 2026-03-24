@@ -8,7 +8,8 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    
-   <link rel="preload" href="head1.webp" as="image" fetchpriority="high">
+   <!-- Preload com imagem da internet para visualização no Canvas -->
+   <link rel="preload" href="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" as="image" fetchpriority="high">
 
    <script src="https://cdn.tailwindcss.com"></script>
   
@@ -342,21 +343,14 @@
            <p class="text-[14px] text-gray-600 font-medium mb-6 text-center px-2">
                O método definitivo de renda extra: Transforme cerâmica fria em joias artesanais altamente lucrativas na mesa da sua cozinha. Sem fornadas, sem precisar de dom artístico.
            </p>
-           
-           <!-- ÂNCORA DE PREÇO -->
-           <div class="mb-4 text-center">
-               <p class="text-[11px] text-gray-500 font-bold uppercase tracking-widest mb-1">Garanta o método por...</p>
-               <p class="text-brand text-[2.5rem] font-black leading-none">R$ 14,90</p>
-               <p class="text-[11px] text-gray-500 mt-1">pagamento único com acesso imediato via WhatsApp</p>
-           </div>
 
            <button onclick="document.getElementById('checkoutSection').scrollIntoView({behavior: 'smooth'})" class="animate-pulse-btn w-full py-4 px-6 btn-primary font-black text-[1.05rem] rounded-xl uppercase tracking-wider mb-8">
                QUERO COMEÇAR MINHA RENDA EXTRA
            </button>
 
            <div class="relative w-full flex justify-center items-center mb-4">
-               <!-- INSTRUÇÃO: Substitua 'head1.webp' por uma foto sua segurando um brinco lindo, ou um arranjo chique na mesa -->
-               <img src="head1.webp" fetchpriority="high" decoding="async" alt="Brincos de Cerâmica Fria" class="w-full h-auto rounded-xl shadow-lg border border-gray-100">
+               <!-- Substituído por URL real para visualização no Canvas -->
+               <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" fetchpriority="high" decoding="async" alt="Brincos de Cerâmica Fria" class="w-full h-auto rounded-xl shadow-lg border border-gray-100 object-cover aspect-[4/3]">
            </div>
        </div>
 
@@ -420,13 +414,13 @@
            </h3>
            
            <div class="grid grid-cols-2 gap-3 w-full">
-               <!-- INSTRUÇÃO: Substitua pelas fotos dos 6 modelos de brincos (como os do vídeo de inspiração) -->
-               <img src="imagem2.webp" loading="lazy" class="w-full aspect-square object-cover rounded-2xl shadow-sm border border-gray-100" alt="Modelo 1">
-               <img src="imagem3.webp" loading="lazy" class="w-full aspect-square object-cover rounded-2xl shadow-sm border border-gray-100" alt="Modelo 2">
-               <img src="imagem4.webp" loading="lazy" class="w-full aspect-square object-cover rounded-2xl shadow-sm border border-gray-100" alt="Modelo 3">
-               <img src="imagem5.webp" loading="lazy" class="w-full aspect-square object-cover rounded-2xl shadow-sm border border-gray-100" alt="Modelo 4">
-               <img src="imagem6.webp" loading="lazy" class="w-full aspect-square object-cover rounded-2xl shadow-sm border border-gray-100" alt="Modelo 5">
-               <img src="imagem7.webp" loading="lazy" class="w-full aspect-square object-cover rounded-2xl shadow-sm border border-gray-100" alt="Modelo 6">
+               <!-- Imagens da internet para visualização no Canvas -->
+               <img src="https://images.unsplash.com/photo-1599643478524-fb66f70a00bf?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" loading="lazy" class="w-full aspect-square object-cover rounded-2xl shadow-sm border border-gray-100" alt="Modelo 1">
+               <img src="https://images.unsplash.com/photo-1515562141207-7a8ef7fbefa3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" loading="lazy" class="w-full aspect-square object-cover rounded-2xl shadow-sm border border-gray-100" alt="Modelo 2">
+               <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" loading="lazy" class="w-full aspect-square object-cover rounded-2xl shadow-sm border border-gray-100" alt="Modelo 3">
+               <img src="https://images.unsplash.com/photo-1630019852942-f89202989a59?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" loading="lazy" class="w-full aspect-square object-cover rounded-2xl shadow-sm border border-gray-100" alt="Modelo 4">
+               <img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" loading="lazy" class="w-full aspect-square object-cover rounded-2xl shadow-sm border border-gray-100" alt="Modelo 5">
+               <img src="https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" loading="lazy" class="w-full aspect-square object-cover rounded-2xl shadow-sm border border-gray-100" alt="Modelo 6">
            </div>
        </div>
 
@@ -517,8 +511,8 @@
                <!-- NOVO: ESPAÇO PARA PRINT DE WHATSAPP/VENDAS -->
                <div class="w-full mt-2 rounded-xl overflow-hidden border border-gray-200 shadow-sm relative">
                    <div class="absolute top-2 left-2 bg-[#10b981] text-white text-[9px] font-black px-2 py-0.5 rounded uppercase tracking-wider shadow-sm z-10">Prova Real</div>
-                   <!-- INSTRUÇÃO: Substitui por um print real de uma cliente a encomendar pelo WhatsApp ou notificação de PIX -->
-                   <img src="imagem8.webp" alt="Print de Vendas WhatsApp" class="w-full h-auto object-cover grayscale-[20%] hover:grayscale-0 transition-all">
+                   <!-- Mockup genérico de celular com notificação para visualização no Canvas -->
+                   <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Print de Vendas WhatsApp" class="w-full h-auto object-cover grayscale-[20%] hover:grayscale-0 transition-all aspect-[16/9]">
                </div>
            </div>
        </div>
@@ -538,8 +532,8 @@
                <p class="text-[11px] text-gray-500 text-center mt-1">O Passo a Passo em VÍDEO + Lista de Fornecedores VIP</p>
                
                <div class="flex justify-center my-4">
-                   <!-- INSTRUÇÃO: Imagem do mockup do pacote VIP (iPad com vídeos + moldes 3D desenhados) -->
-                   <img src="imagem9.webp" alt="Pacote VIP Brincos" class="h-[140px] w-auto transform hover:scale-105 transition-transform duration-300">
+                   <!-- Mockup de tablet/telas para visualização no Canvas -->
+                   <img src="https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Pacote VIP Brincos" class="h-[140px] w-auto transform hover:scale-105 transition-transform duration-300 rounded-lg shadow-md">
                </div>
                
                <div class="space-y-3 my-5 font-medium text-[12px] text-gray-700">
